@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(246, 250, 253);
+  color: #284150;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+h5 {
+  font-weight: 100;
+}
+
+.nav-logo {
+  box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.margin-top {
+  margin-top: 4rem;
+}
+
+.calculator {
+    background-color: #fff;
+    width: 80%;
+    text-align: center;
+    padding:2rem 5rem;
+    border-radius: 10px;
+}
+
+.bin-input {
+    width: 12rem;
+}
+.bin-input:focus {
+    outline: none;
+    border: 1px solid #F70026;
+}
+
+.cal-btn {
+    background-color: #F70026;
+    color: #fff;
+    margin-top: 2rem;
+}

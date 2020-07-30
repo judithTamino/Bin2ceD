@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- https://dribbble.com/shots/5993849-Mortgage-Calculator/attachments -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bin2Dec</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-logo">
+      <img src="/img/binary-code.svg" alt="logo" />
+    </nav>
+
+    <div class="container margin-top">
+      <div class="header">
+        <h3 class="main-title">Bin2Dec</h3>
+        <h5 class="secondary-title">
+          enter strings of up to 8 binary digits, 0's and 1's, in any sequence
+          to see its decimal equivalent
+        </h5>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+            <div class="calculator">
+                <input type="number" class="bin-input" />
+                <span id="error-msg"></span>
+                <button class="cal-btn">calculate</button>
+            </div>
+        </div>
+        <div class="col-lg-6">
+          <div id="outcome"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JavaScript Link -->
+    <script src="/index.js"></script>
+  </body>
+</html>
