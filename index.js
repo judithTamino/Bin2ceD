@@ -28,6 +28,7 @@ $(document).ready(function () {
 
   calBtn.on("click", function () {
     let exponent = binaryNum.length - 1;
+    decNum = 0;
     for (let i = 0; i < binaryNum.length; i++) {
       decNum += binaryNum[i] * Math.pow(2, exponent);
       exponent--;

@@ -1,6 +1,7 @@
 body {
   background-color: rgb(246, 250, 253);
   color: #284150;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
@@ -9,6 +10,7 @@ h3 {
 
 h5 {
   font-weight: 100;
+  color: #000000;
 }
 
 .nav-logo {
@@ -20,23 +22,51 @@ h5 {
 }
 
 .calculator {
-    background-color: #fff;
-    width: 80%;
-    text-align: center;
-    padding:2rem 5rem;
-    border-radius: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem 5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .bin-input {
-    width: 12rem;
+  padding: .5rem .2rem;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid #284150;
 }
 .bin-input:focus {
-    outline: none;
-    border: 1px solid #F70026;
+  outline: none;
+  border: 1px solid #f70026;
 }
 
 .cal-btn {
-    background-color: #F70026;
-    color: #fff;
-    margin-top: 2rem;
+  background-color: #f70026;
+  color: #fff;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 7px;
+  padding:.5em 2em;
+  box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.2);
+}
+.cal-btn:disabled {
+  background-color: #ff8093;
+}
+.cal-btn:focus {
+  border-radius: 7px;
+}
+
+#error-msg {
+  display: block;
+  margin-top: 1rem;
+  color: #f70026;
+}
+
+#outcome {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 50%;
+  font-size: 5rem;
+  color: #f70026;
 }
